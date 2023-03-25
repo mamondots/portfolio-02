@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.about-info{
+    padding-top:10vh;
+    padding-left:18vh;
+}
+.about-sub-title{
+    font-size:18px;
+    color:#141616;
+    font-weight:600;
+}
+.about-title{
+    font-size:50px;
+    font-weight:700;
+    color: #141616;
+    padding-top:8px;
+}
+.about-hero-img{
+    position: relative;
+    top:20px;
+}
+.about-hero-img img{
+    width:70%;
+}
+.about-hero-info{
+    text-align:center;
+    margin-top:30px;
+    margin-left:-120px;
+}
+.hero-title{
+    font-size:48px;
+    font-weight:700;
+    text-transform: uppercase;
+    background-image:linear-gradient(270.16deg, #ffb147 5.74%, #ff6c63 50.64%, #b86adf 92.05%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.hero-sub-title{
+    font-size:24px;
+    font-weight:700;
+    color: #141616;
+}
+.hero-sub-title span{
+    font-weight:400;
+}
+.about-hero-info a{
+    font-size:18px;
+    color:#141616;
+    font-weight:500;
+    cursor: pointer;
+    transition:0.5s;
+    position: relative;
+    top:12px;
+}
+.about-hero-info a:hover{
+    color:red;
+}
+.detailes-info{
+    padding-top:23vh;
+}
+.adress-info{
+    display:flex;
+    position: relative;
+    left:-20px;
+}
+.adress-info::before{
+    position: absolute;
+    content:"";
+    left:0px;
+    bottom:-15px;
+    width:100%;
+    height:1px;
+    background-color:#adadad84;
+}
+.contact-info{
+    margin:0 20px;
+    line-height:2.5;
+}
+.personal-number{
+    font-size:18px;
+    font-weight:600;
+    color:#141313;
+    transition:0.5s;
+    cursor: pointer;
+}
+.personal-number i{
+    width:30px;
+    height:30px;
+    background-color:#f3f3f3;
+    font-size:14px;
+    text-align:center;
+    line-height:30px;
+    cursor: pointer;
+    transition:0.3s;
+}
+.personal-number:hover i{
+    background-color: #ff6c63;
+    color:#fff;
+}
+.expernce-info{
+    display:flex;
+    margin-left:-20px;
+    padding-top:40px;
+}
+.expernce-year{
+    margin:0 20px;
+}
+.expernce-year-title{
+    display:flex;
+    align-items:center;
+}
+.expernce-year-title .year{
+    font-size:48px;
+    font-weight:700;
+    text-transform: uppercase;
+    background-image:linear-gradient(270.16deg, #ffb147 5.74%, #ff6c63 50.64%, #b86adf 92.05%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.year-info{
+    font-weight:700;
+    color: #141313;
+    font-size:16px;
+    line-height:20px;
+    margin-left:5px;
+}
+.expernce-year-details{
+    font-weight:400;
+    font-size:16px;
+    line-height:24px;
+    margin-top:12px;
+    color: #141313;
+}
+.black-info{
+    background-color: #141313;
+    text-align:center;
+    padding:30px 0;
+    margin-top:25px;
+}
+.black-detals{
+    font-weight:600;
+    font-size:16px;
+    line-height:32px;
+    color:#fff;
+}

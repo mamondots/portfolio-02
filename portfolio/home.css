@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container{
+    display:flex;
+    overflow:hidden;
+}
+.menu{
+    position: relative;
+    width:200px;
+    background-color:#141313;
+    padding:30px 30px;
+}
+.logo a{
+    text-decoration:none;
+    font-weight:700;
+    font-size:30px;
+    color:#fff;
+    cursor: pointer;
+}
+.menu-nav{
+    padding-top:60px;
+}
+.menu-nav ul li{
+    list-style:none;
+}
+.menu-nav ul li a{
+    text-decoration:none;
+    font-size:20px;
+    font-weight:500;
+    color:#fff;
+    line-height:35px;
+    cursor: pointer;
+    transition:0.5s;
+    position: relative;
+}
+.menu-nav ul li a::before{
+    position: absolute;
+    content:"";
+    width:0%;
+    height:2px;
+    background-image:linear-gradient(90deg, #ff6c63, #fbdabc);
+    left:0;
+    top:50%;
+    transition:0.5s;
+}
+.menu-nav ul li a:hover::before{
+    width:100%;
+}
+.social-icon{
+    display:flex;
+    flex-direction: column;
+    padding-top:100px;
+}
+.social-icon i{
+    width:30px;
+    height:30px;
+    background-color:#fff;
+    border-radius:50%;
+    text-align:center;
+    line-height:30px;
+    margin:4px 0;
+    cursor: pointer;
+    transition:0.5s;
+}
+.social-icon i:hover{
+    background-image:linear-gradient(90deg, #ff6c63, #fbdabc);
+    color:#fff;
+}
+.copy-right{
+    font-size:10px;
+    font-weight:400;
+    color:#fff;
+    line-height:1.5;
+    padding:22px 0;
+}
+.basic-info{
+    padding-left:20vh;
+    padding-top:22vh;
+}
+.basic-info .title{
+    font-size:80px;
+    font-weight:400;
+    color:#141313;
+    text-transform: uppercase;
+    line-height:80px;
+    z-index:2;
+}
+.basic-info .title span{
+    font-weight:600;
+}
+.sub-title{
+    padding-top:12px;
+    font-weight:700;
+    font-size:20px;
+    color:#141313;
+}
+.sub-title span{
+    font-weight:400;
+}
+.home-btn{
+    margin-top:12px;
+    padding:12px 35px;
+    background-color: #141313;
+    color:#fff;
+    font-size:16px;
+    border:1px solid #141313;
+    cursor: pointer;
+    transition:0.5s;
+}
+.home-btn:hover{
+    background-color:transparent;
+    color: #141313;
+}
+.home-btn i{
+    font-size:14px;
+    transform:translateX(0px);
+    transition:0.5s;
+}
+.home-btn:hover i{
+    transform:translateX(10px);
+}
+.user-contact{
+    margin-top:30px;
+    display:flex;
+    margin-left:-8px;
+    width:400px;
+}
+.user-contact .mobile{
+    font-size:16px;
+    font-weight:600;
+    color: #141313;
+    margin:0 8px;
+    cursor: pointer;
+    transition:0.5s;
+}
+.user-contact .mobile:hover{
+    color:red;
+}
+.title-img{
+    position: absolute;
+    width:10%;
+    z-index:-1;
+}
+.hero-img{
+    position: relative;
+    top:30px;
+    left:30px;
+}
+.hero-img img{
+    width:80%;
+}

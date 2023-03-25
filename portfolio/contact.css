@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.contacts-info{
+    padding-top:25vh;
+    padding-left:12vh;
+}
+.contacts-info .contact-sub-title{
+    font-weight:600;
+    font-size:18px;
+    color:#141313;
+}
+.contacts-info .contact-title{
+    font-weight:700;
+    font-size:40px;
+    text-transform: uppercase;
+    color:#141313;
+    padding-top:8px;
+}
+.contacts-info .contact-sub-detals{
+    font-weight:400;
+    font-size:16px;
+    color:#141313;
+    padding-top:5px;
+    line-height:1.5;
+}
+.contack-personal-number{
+    margin-top:25px;
+}
+.contack-personal-number .contact-num{
+    font-weight:700;
+    font-size:20px;
+    color: #141313;
+    padding-top:8px;
+}
+.social-text{
+    padding-top:40px;
+}
+.social-text ul{
+    display:flex;
+    margin-left:-8px;
+}
+.social-text ul li{
+    list-style:none;
+    margin:0 8px;
+}
+.social-text ul li a{
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight:400;
+    color:#141313;
+    cursor: pointer;
+    transition:0.5s;
+}
+.social-text ul li a:hover{
+    color:red;
+}
+.contacts-box{
+    position: relative;
+    top:20vh;
+    left:8vh;
+    width:600px;
+    height:360px;
+    padding:30px;
+    background-image:linear-gradient(270.16deg, #ffb147 5.74%, #ff6c63 50.64%, #b86adf 92.05%);
+}
+.contacks-box-title{
+    text-transform: uppercase;
+    font-size:2rem;
+    color:#fff;
+    font-weight:600;
+    padding-bottom:20px;
+}
+input{
+    width:248px;
+    margin:0 2px;
+    margin-bottom:15px;
+    padding:8px;
+    outline:none;
+    font-size:16px;
+    font-weight:500;
+    color:#262626;
+}
+textarea{
+    outline:none;
+    font-weight:500;
+    color:#262626;
+    padding:8px;
+    font-size:16px;
+}
+.contacks-submit-btn{
+    padding:12px 25px;
+    color:#fff;
+    font-size:16px;
+    text-transform: capitalize;
+    background-color: #141313;
+    margin-top:8px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    transition:0.5s;
+}
+.contacks-submit-btn:hover{
+    background-color: #464545;
+}
